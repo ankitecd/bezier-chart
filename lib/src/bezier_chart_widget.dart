@@ -1360,7 +1360,7 @@ class _BezierChartPainter extends CustomPainter {
           radiusDotIndicatorMain,
           Paint()
             ..color = series.reversed.toList().last.dataPointFillColor
-            ..strokeWidth = 4.0,
+            ..strokeWidth = 10.0,
         );
 
         //calculate the total lenght of the lines
